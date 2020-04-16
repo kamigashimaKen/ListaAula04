@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio07</title>
+</head>
+<body>
+    <form method="POST" action="/NovoCliente">
+        <p>
+            Informe sua razão social:
+            <input type="text" pattern="[a-zA-Z]{20}">
+        </p>
+        <br><br>
+        <p>
+            Informe endereço:
+            <input type="text" pattern="[a-zA-Z]{30}">
+        </p>
+        <p>
+            Data
+            <input type="date">
+        </p>
+        <p>
+            eMail
+            <input type="email">
+        </p>
+        <input type="reset" value="cancelar">
+        <input type="submit" value="confirmar">
+    </form>
+</body>
+</html>
